@@ -1,0 +1,2 @@
+[console_scripts]
+doc-generator = src.generator:generate_documentation

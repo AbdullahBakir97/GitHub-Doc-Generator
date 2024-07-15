@@ -20,6 +20,11 @@
     <div>
         <h2>Additional Documentation:</h2>
         {{ markdown_content|safe }}
+        <form action="/generate_docs" method="post">
+            <input type="text" name="repo" value="repository-name">
+            <button type="submit">Generate Docs</button>
+        </form>
+        
     </div>
 </body>
 </html>

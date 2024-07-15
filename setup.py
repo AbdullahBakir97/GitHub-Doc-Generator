@@ -6,7 +6,7 @@ setup(
     description='A tool to generate documentation from code comments and markdown files.',
     author='@AbdullahBakir97',
     author_email='abdullah.bakir.204@gmail.com',
-    url='https://github.com/AbdullahBakir97/doc-generator',
+    url='https://github.com/AbdullahBakir97/GitHub-Doc-Generator',
     packages=find_packages(),
     install_requires=[
         'flask',
