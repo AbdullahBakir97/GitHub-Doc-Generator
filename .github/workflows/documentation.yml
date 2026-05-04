@@ -23,7 +23,7 @@ jobs:
     - name: Run documentation script
       run: python src/generator.py
     - name: Upload documentation
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v7
       with:
         name: documentation
         path: docs/output/documentation.html
